@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konversi Bilangan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <h2 class="logo">Bilangan Converter</h2>
+      <ul class="nav-links">
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">konversi</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Konversi Bilangan</h1>
+    <p>Masukkan bilangan dan pilih jenis basis untuk konversi</p>
+
+    <div class="input-group">
+      <input type="text" id="inputNumber" placeholder="Masukkan bilangan...">
+      <select id="inputBase">
+        <option value="10">Desimal</option>
+        <option value="2">Biner</option>
+        <option value="8">Oktal</option>
+        <option value="16">Heksadesimal</option>
+      </select>
+      <button onclick="convertNumber()">Konversi</button>
+    </div>
+
+    <div class="result">
+      <h2>Hasil Konversi</h2>
+      <p><strong>Desimal:</strong> <span id="decimal">-</span></p>
+      <p><strong>Biner:</strong> <span id="binary">-</span></p>
+      <p><strong>Oktal:</strong> <span id="octal">-</span></p>
+      <p><strong>Heksadesimal:</strong> <span id="hexadecimal">-</span></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Konversi Bilangan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
