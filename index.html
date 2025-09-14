@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kalkulator Konversi Bilangan</title>
+  <title>Konversi Bilangan</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <nav class="navbar">
     <div class="nav-container">
-      <h2 class="logo">Bilangan Converter</h2>
+      <h2 class="logo">Konversi</h2>
       <ul class="nav-links">
         <li><a href="#home">Beranda</a></li>
         <li><a href="#konversi">Konversi</a></li>
@@ -20,10 +20,9 @@
 
   <div class="container" id="home">
     <h1>Kalkulator Konversi Desimal ke Biner, Oktal, Hexadesimal Online & Sebaliknya</h1>
-    <p>Masukkan bilangan dan pilih jenis basis untuk konversi</p>
 
     <div class="input-card" id="konversi">
-      <input type="text" id="inputNumber" placeholder="Masukkan bilangan...">
+      <input type="text" id="inputNumber" placeholder="Masukan bilangan">
       <select id="inputBase">
         <option value="10">Desimal</option>
         <option value="2">Biner</option>
@@ -33,18 +32,14 @@
       <button onclick="convertNumber()">Konversi</button>
     </div>
 
-    <div class="result">
-      <h2>Hasil Konversi</h2>
-      <p><strong>Desimal:</strong> <span id="decimal">-</span></p>
-      <p><strong>Biner:</strong> <span id="binary">-</span></p>
-      <p><strong>Oktal:</strong> <span id="octal">-</span></p>
-      <p><strong>Heksadesimal:</strong> <span id="hexadecimal">-</span></p>
+    <div class="hasil">
+      <h1>Hasil</h1>
+      <p><strong>Desimal :</strong> <span id="desimal"></span></p>
+      <p><strong>Biner :</strong> <span id="biner"></span></p>
+      <p><strong>Oktal :</strong> <span id="oktal"></span></p>
+      <p><strong>Heksadesimal :</strong> <span id="hexadesimal"></span></p>
     </div>
   </div>
-
-  <footer>
-    <p>Konversi Bilangan © 2025</p>
-  </footer>
 
   <script src="script.js"></script>
 </body>

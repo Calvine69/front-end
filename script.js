@@ -3,11 +3,10 @@ function convertNumber() {
   const base = parseInt(document.getElementById("inputBase").value);
 
   if (!input) {
-    alert("Masukkan bilangan terlebih dahulu!");
+    alert("harus mengisi bilangan terlebih dahulu");
     return;
   }
 
-  // Validasi input sesuai basis
   const regexes = {
     2: /^[0-1]+$/,
     8: /^[0-7]+$/,
@@ -19,11 +18,10 @@ function convertNumber() {
     alert("Input tidak valid untuk basis " + base);
     return;
   }
+  const desimal = parseInt(input, base);
 
-  const decimal = parseInt(input, base);
-
-  document.getElementById("decimal").textContent = decimal.toString(10);
-  document.getElementById("binary").textContent = decimal.toString(2);
-  document.getElementById("octal").textContent = decimal.toString(8);
-  document.getElementById("hexadecimal").textContent = decimal.toString(16).toUpperCase();
+  document.getElementById("desimal").textContent = desimal.toString(10);
+  document.getElementById("biner").textContent = desimal.toString(2);
+  document.getElementById("oktal").textContent = desimal.toString(8);
+  document.getElementById("hexadesimal").textContent = desimal.toString(16).toUpperCase();
 }

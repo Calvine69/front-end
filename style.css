@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-  background: #2c3e50;
+  background: #753c6e;
   padding: 15px 20px;
   color: #fff;
   position: sticky;
@@ -87,7 +87,7 @@ body {
 }
 
 .input-card button {
-  background: #1abc9c;
+  background: #872976;
   color: #fff;
   border: none;
   padding: 12px 20px;
@@ -101,7 +101,7 @@ body {
   background: #16a085;
 }
 
-.result {
+.hasil {
   background: #fff;
   margin-top: 25px;
   padding: 20px;
@@ -110,15 +110,9 @@ body {
   text-align: left;
 }
 
-.result h2 {
+.hasil h2 {
   margin-top: 0;
   color: #2c3e50;
 }
 
-footer {
-  background: #2c3e50;
-  color: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-top: 40px;
-}
+
