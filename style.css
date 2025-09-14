@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-  background: #753c6e;
+  background: #3c5a75;
   padding: 15px 20px;
   color: #fff;
   position: sticky;
@@ -41,7 +41,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #1abc9c;
+  color: #bc401a;
 }
 
 .container {
@@ -54,7 +54,7 @@ body {
 .container h1 {
   font-size: 28px;
   font-weight: bold;
-  color: #2c3e50;
+  color: #50482c;
   margin-bottom: 15px;
   line-height: 1.4;
 }
