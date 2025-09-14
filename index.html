@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Konversi Bilangan</title>
+  <title>Kalkulator Konversi Bilangan</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,17 +12,17 @@
     <div class="nav-container">
       <h2 class="logo">Bilangan Converter</h2>
       <ul class="nav-links">
-        <li><a href="#">Beranda</a></li>
-        <li><a href="#">konversi</a></li>
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#konversi">Konversi</a></li>
       </ul>
     </div>
   </nav>
 
-  <div class="container">
-    <h1>Konversi Bilangan</h1>
+  <div class="container" id="home">
+    <h1>Kalkulator Konversi Desimal ke Biner, Oktal, Hexadesimal Online & Sebaliknya</h1>
     <p>Masukkan bilangan dan pilih jenis basis untuk konversi</p>
 
-    <div class="input-group">
+    <div class="input-card" id="konversi">
       <input type="text" id="inputNumber" placeholder="Masukkan bilangan...">
       <select id="inputBase">
         <option value="10">Desimal</option>
@@ -43,7 +43,7 @@
   </div>
 
   <footer>
-    <p>Konversi Bilangan</p>
+    <p>Konversi Bilangan © 2025</p>
   </footer>
 
   <script src="script.js"></script>
